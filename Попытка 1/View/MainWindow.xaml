@@ -1,0 +1,60 @@
+﻿<Window x:Class="Попытка_1.MainWindow"
+xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+
+xmlns:local="clr-namespace:Попытка_1" 
+mc:Ignorable="d"
+Title="Городская поликлиника." Height="450" Width="800" MinWidth="800" MinHeight="450">
+    <Grid Background="Azure">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.75*" ></RowDefinition>
+            <RowDefinition Height="0.75*"></RowDefinition>
+            <RowDefinition Height="0.75*"></RowDefinition>
+            <RowDefinition Height="1.75*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="3" Text="Авторизация" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="24"/>
+        <StackPanel Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="3" Orientation="Vertical" VerticalAlignment="Center" Margin="16,0">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Введите логин:" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            </StackPanel>
+            <TextBox FontSize="20" Text="{Binding Login, UpdateSourceTrigger=PropertyChanged}" Margin="2,8,0,0" HorizontalAlignment="Left" Width="440" CaretBrush="#FF49695A" SelectionBrush="#FF49695A" />
+        </StackPanel>
+        <StackPanel Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="3" Orientation="Vertical" VerticalAlignment="Center" Margin="16,0">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Введите пароль:" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            </StackPanel>
+            <PasswordBox FontSize="20" Name ="Password" Margin="0,8,-0.4,0" CaretBrush="#FF49695A" SelectionBrush="#FF49695A" />
+        </StackPanel>
+        <StackPanel Grid.Column="1" Grid.Row="3" Grid.ColumnSpan="3">
+            <Button Command="{Binding Enter}" CommandParameter="{Binding ElementName=Password}" HorizontalAlignment="Center" VerticalAlignment="Top" Content="Войти" FontSize="20" Margin="0,8,0,0" Background="#FFFFF0F5" BorderBrush="#FFFFF0F5" Foreground="Black"/>
+            <TextBlock FontSize="18" Foreground="Red" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,4,0,0">
+                <TextBlock.Style>
+                    <Style TargetType="TextBlock">
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding Wrong}" Value="0">
+                                <Setter Property="Visibility" Value="Collapsed"/>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding Wrong}" Value="1">
+                                <Setter Property="Text" Value="Не найден пользователь с этим логином"/>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding Wrong}" Value="2">
+                                <Setter Property="Text" Value="Пароль введен неверно"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </TextBlock.Style>
+            </TextBlock>
+        </StackPanel>
+
+    </Grid>
+</Window>

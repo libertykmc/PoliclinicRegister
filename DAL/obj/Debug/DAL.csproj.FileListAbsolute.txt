@@ -1,0 +1,55 @@
+C:\Users\ivans\Desktop\Новая папка (2)\-1\DAL\bin\Debug\DAL.dll.config
+C:\Users\ivans\Desktop\Новая папка (2)\-1\DAL\bin\Debug\DAL.dll
+C:\Users\ivans\Desktop\Новая папка (2)\-1\DAL\bin\Debug\DAL.pdb
+C:\Users\ivans\Desktop\Новая папка (2)\-1\DAL\bin\Debug\EntityFramework.dll
+C:\Users\ivans\Desktop\Новая папка (2)\-1\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ivans\Desktop\Новая папка (2)\-1\DAL\bin\Debug\EntityFramework.xml
+C:\Users\ivans\Desktop\Новая папка (2)\-1\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ivans\Desktop\Новая папка (2)\-1\DAL\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\ivans\Desktop\Новая папка (2)\-1\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\ivans\Desktop\Новая папка (2)\-1\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\ivans\Desktop\Новая папка (2)\-1\DAL\obj\Debug\DAL.dll
+C:\Users\ivans\Desktop\Новая папка (2)\-1\DAL\obj\Debug\DAL.pdb
+C:\Users\ivans\Desktop\Новая папка (2)\-1\DAL\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\nedokmc\Desktop\-1\DAL\bin\Debug\DAL.dll.config
+C:\Users\nedokmc\Desktop\-1\DAL\bin\Debug\DAL.dll
+C:\Users\nedokmc\Desktop\-1\DAL\bin\Debug\DAL.pdb
+C:\Users\nedokmc\Desktop\-1\DAL\bin\Debug\EntityFramework.dll
+C:\Users\nedokmc\Desktop\-1\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nedokmc\Desktop\-1\DAL\bin\Debug\EntityFramework.xml
+C:\Users\nedokmc\Desktop\-1\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nedokmc\Desktop\-1\DAL\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\nedokmc\Desktop\-1\DAL\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\nedokmc\Desktop\-1\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\nedokmc\Desktop\-1\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\nedokmc\Desktop\-1\DAL\obj\Debug\DAL.csproj.Up2Date
+C:\Users\nedokmc\Desktop\-1\DAL\obj\Debug\DAL.dll
+C:\Users\nedokmc\Desktop\-1\DAL\obj\Debug\DAL.pdb
+C:\Users\nedokmc\Desktop\дэм\Учеба\2-42\Конструирование ПО\Курсач\-1\DAL\bin\Debug\DAL.dll.config
+C:\Users\nedokmc\Desktop\дэм\Учеба\2-42\Конструирование ПО\Курсач\-1\DAL\bin\Debug\DAL.dll
+C:\Users\nedokmc\Desktop\дэм\Учеба\2-42\Конструирование ПО\Курсач\-1\DAL\bin\Debug\DAL.pdb
+C:\Users\nedokmc\Desktop\дэм\Учеба\2-42\Конструирование ПО\Курсач\-1\DAL\bin\Debug\EntityFramework.dll
+C:\Users\nedokmc\Desktop\дэм\Учеба\2-42\Конструирование ПО\Курсач\-1\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nedokmc\Desktop\дэм\Учеба\2-42\Конструирование ПО\Курсач\-1\DAL\bin\Debug\EntityFramework.xml
+C:\Users\nedokmc\Desktop\дэм\Учеба\2-42\Конструирование ПО\Курсач\-1\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nedokmc\Desktop\дэм\Учеба\2-42\Конструирование ПО\Курсач\-1\DAL\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\nedokmc\Desktop\дэм\Учеба\2-42\Конструирование ПО\Курсач\-1\DAL\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\nedokmc\Desktop\дэм\Учеба\2-42\Конструирование ПО\Курсач\-1\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\nedokmc\Desktop\дэм\Учеба\2-42\Конструирование ПО\Курсач\-1\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\nedokmc\Desktop\дэм\Учеба\2-42\Конструирование ПО\Курсач\-1\DAL\obj\Debug\DAL.csproj.Up2Date
+C:\Users\nedokmc\Desktop\дэм\Учеба\2-42\Конструирование ПО\Курсач\-1\DAL\obj\Debug\DAL.dll
+C:\Users\nedokmc\Desktop\дэм\Учеба\2-42\Конструирование ПО\Курсач\-1\DAL\obj\Debug\DAL.pdb
+C:\Users\amaxm\Desktop\-1\DAL\bin\Debug\DAL.dll.config
+C:\Users\amaxm\Desktop\-1\DAL\bin\Debug\DAL.dll
+C:\Users\amaxm\Desktop\-1\DAL\bin\Debug\DAL.pdb
+C:\Users\amaxm\Desktop\-1\DAL\bin\Debug\EntityFramework.dll
+C:\Users\amaxm\Desktop\-1\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\amaxm\Desktop\-1\DAL\bin\Debug\EntityFramework.xml
+C:\Users\amaxm\Desktop\-1\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\amaxm\Desktop\-1\DAL\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\amaxm\Desktop\-1\DAL\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\amaxm\Desktop\-1\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\amaxm\Desktop\-1\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\amaxm\Desktop\-1\DAL\obj\Debug\DAL.csproj.Up2Date
+C:\Users\amaxm\Desktop\-1\DAL\obj\Debug\DAL.dll
+C:\Users\amaxm\Desktop\-1\DAL\obj\Debug\DAL.pdb

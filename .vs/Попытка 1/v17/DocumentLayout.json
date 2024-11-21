@@ -1,0 +1,396 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|solutionrelative:\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|c:\\users\\nedokmc\\desktop\\\u0434\u044D\u043C\\\u0443\u0447\u0435\u0431\u0430\\2-42\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u043F\u043E\\\u043A\u0443\u0440\u0441\u0430\u0447\\-1\\\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\viewmodel\\registrationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|solutionrelative:\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\viewmodel\\registrationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|c:\\users\\nedokmc\\desktop\\\u0434\u044D\u043C\\\u0443\u0447\u0435\u0431\u0430\\2-42\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u043F\u043E\\\u043A\u0443\u0440\u0441\u0430\u0447\\-1\\\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\view\\registrationmain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|solutionrelative:\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\view\\registrationmain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|c:\\users\\nedokmc\\desktop\\\u0434\u044D\u043C\\\u0443\u0447\u0435\u0431\u0430\\2-42\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u043F\u043E\\\u043A\u0443\u0440\u0441\u0430\u0447\\-1\\\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|solutionrelative:\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\model\\doprocmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|solutionrelative:\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\model\\doprocmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\model\\daysmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|solutionrelative:\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\model\\daysmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|c:\\users\\nedokmc\\desktop\\\u0434\u044D\u043C\\\u0443\u0447\u0435\u0431\u0430\\2-42\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u043F\u043E\\\u043A\u0443\u0440\u0441\u0430\u0447\\-1\\\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\viewmodel\\procscheduleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|solutionrelative:\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\viewmodel\\procscheduleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\view\\procschedule.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|solutionrelative:\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\view\\procschedule.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\viewmodel\\proceduralviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|solutionrelative:\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\viewmodel\\proceduralviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\viewmodel\\authorizationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|solutionrelative:\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\viewmodel\\authorizationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\viewmodel\\nurcesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|solutionrelative:\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\viewmodel\\nurcesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\viewmodel\\doctormainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|solutionrelative:\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\viewmodel\\doctormainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\viewmodel\\changingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|solutionrelative:\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\viewmodel\\changingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\model\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|solutionrelative:\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\model\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\model\\scheduleproceduremodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|solutionrelative:\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\model\\scheduleproceduremodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\model\\schedulemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|solutionrelative:\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\model\\schedulemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\model\\recordpatientmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|solutionrelative:\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\model\\recordpatientmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\model\\makingproceduremodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|solutionrelative:\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\model\\makingproceduremodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\model\\doctorseemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|solutionrelative:\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\model\\doctorseemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\model\\doctormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|solutionrelative:\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\model\\doctormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\model\\dbaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|solutionrelative:\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\model\\dbaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\model\\changingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|solutionrelative:\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\model\\changingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\model\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|solutionrelative:\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\model\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegistrationViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\ViewModel\\RegistrationViewModel.cs",
+              "RelativeDocumentMoniker": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\ViewModel\\RegistrationViewModel.cs",
+              "ToolTip": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\ViewModel\\RegistrationViewModel.cs",
+              "RelativeToolTip": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\ViewModel\\RegistrationViewModel.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T07:12:49.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegistrationMain.xaml",
+              "DocumentMoniker": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\View\\RegistrationMain.xaml",
+              "RelativeDocumentMoniker": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\View\\RegistrationMain.xaml",
+              "ToolTip": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\View\\RegistrationMain.xaml",
+              "RelativeToolTip": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\View\\RegistrationMain.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-21T07:12:22.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\View\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\View\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\View\\MainWindow.xaml",
+              "RelativeToolTip": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\View\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-21T07:12:14.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProceduralViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\ViewModel\\ProceduralViewModel.cs",
+              "RelativeDocumentMoniker": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\ViewModel\\ProceduralViewModel.cs",
+              "ToolTip": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\ViewModel\\ProceduralViewModel.cs",
+              "RelativeToolTip": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\ViewModel\\ProceduralViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T05:46:29.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NurcesViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\ViewModel\\NurcesViewModel.cs",
+              "RelativeDocumentMoniker": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\ViewModel\\NurcesViewModel.cs",
+              "ToolTip": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\ViewModel\\NurcesViewModel.cs",
+              "RelativeToolTip": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\ViewModel\\NurcesViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T09:26:28.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\ViewModel\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\ViewModel\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\ViewModel\\MainViewModel.cs",
+              "RelativeToolTip": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\ViewModel\\MainViewModel.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T09:26:03.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DoctorMainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\ViewModel\\DoctorMainViewModel.cs",
+              "RelativeDocumentMoniker": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\ViewModel\\DoctorMainViewModel.cs",
+              "ToolTip": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\ViewModel\\DoctorMainViewModel.cs",
+              "RelativeToolTip": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\ViewModel\\DoctorMainViewModel.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T09:25:32.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DaysModel.cs",
+              "DocumentMoniker": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\DaysModel.cs",
+              "RelativeDocumentMoniker": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\DaysModel.cs",
+              "ToolTip": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\DaysModel.cs",
+              "RelativeToolTip": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\DaysModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T09:22:06.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DoProcModel.cs",
+              "DocumentMoniker": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\DoProcModel.cs",
+              "RelativeDocumentMoniker": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\DoProcModel.cs",
+              "ToolTip": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\DoProcModel.cs",
+              "RelativeToolTip": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\DoProcModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T09:23:40.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProcScheduleViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\ViewModel\\ProcScheduleViewModel.cs",
+              "RelativeDocumentMoniker": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\ViewModel\\ProcScheduleViewModel.cs",
+              "ToolTip": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\ViewModel\\ProcScheduleViewModel.cs",
+              "RelativeToolTip": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\ViewModel\\ProcScheduleViewModel.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABEAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T05:46:34.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProcSchedule.xaml",
+              "DocumentMoniker": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\View\\ProcSchedule.xaml",
+              "RelativeDocumentMoniker": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\View\\ProcSchedule.xaml",
+              "ToolTip": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\View\\ProcSchedule.xaml",
+              "RelativeToolTip": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\View\\ProcSchedule.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-21T05:58:44.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ChangingViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\ViewModel\\ChangingViewModel.cs",
+              "RelativeDocumentMoniker": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\ViewModel\\ChangingViewModel.cs",
+              "ToolTip": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\ViewModel\\ChangingViewModel.cs",
+              "RelativeToolTip": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\ViewModel\\ChangingViewModel.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAqwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T09:25:22.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthorizationViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\ViewModel\\AuthorizationViewModel.cs",
+              "RelativeDocumentMoniker": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\ViewModel\\AuthorizationViewModel.cs",
+              "ToolTip": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\ViewModel\\AuthorizationViewModel.cs",
+              "RelativeToolTip": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\ViewModel\\AuthorizationViewModel.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAkwFAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T09:24:22.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\UserModel.cs",
+              "RelativeDocumentMoniker": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\UserModel.cs",
+              "ToolTip": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\UserModel.cs",
+              "RelativeToolTip": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\UserModel.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwB0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T09:24:08.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ScheduleProcedureModel.cs",
+              "DocumentMoniker": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\ScheduleProcedureModel.cs",
+              "RelativeDocumentMoniker": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\ScheduleProcedureModel.cs",
+              "ToolTip": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\ScheduleProcedureModel.cs",
+              "RelativeToolTip": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\ScheduleProcedureModel.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAIwE0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T09:24:02.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ScheduleModel.cs",
+              "DocumentMoniker": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\ScheduleModel.cs",
+              "RelativeDocumentMoniker": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\ScheduleModel.cs",
+              "ToolTip": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\ScheduleModel.cs",
+              "RelativeToolTip": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\ScheduleModel.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAcwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T09:23:57.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RecordPatientModel.cs",
+              "DocumentMoniker": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\RecordPatientModel.cs",
+              "RelativeDocumentMoniker": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\RecordPatientModel.cs",
+              "ToolTip": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\RecordPatientModel.cs",
+              "RelativeToolTip": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\RecordPatientModel.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAUwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T09:23:48.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MakingProcedureModel.cs",
+              "DocumentMoniker": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\MakingProcedureModel.cs",
+              "RelativeDocumentMoniker": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\MakingProcedureModel.cs",
+              "ToolTip": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\MakingProcedureModel.cs",
+              "RelativeToolTip": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\MakingProcedureModel.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T09:23:43.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DoctorSeeModel.cs",
+              "DocumentMoniker": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\DoctorSeeModel.cs",
+              "RelativeDocumentMoniker": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\DoctorSeeModel.cs",
+              "ToolTip": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\DoctorSeeModel.cs",
+              "RelativeToolTip": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\DoctorSeeModel.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T09:23:33.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DoctorModel.cs",
+              "DocumentMoniker": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\DoctorModel.cs",
+              "RelativeDocumentMoniker": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\DoctorModel.cs",
+              "ToolTip": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\DoctorModel.cs",
+              "RelativeToolTip": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\DoctorModel.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwAoAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T09:23:08.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DBAccess.cs",
+              "DocumentMoniker": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\DBAccess.cs",
+              "RelativeDocumentMoniker": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\DBAccess.cs",
+              "ToolTip": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\DBAccess.cs",
+              "RelativeToolTip": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\DBAccess.cs",
+              "ViewState": "AQIAAMECAAAAAAAAAAAuwL8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T09:22:08.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ChangingModel.cs",
+              "DocumentMoniker": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\ChangingModel.cs",
+              "RelativeDocumentMoniker": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\ChangingModel.cs",
+              "ToolTip": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\ChangingModel.cs",
+              "RelativeToolTip": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\ChangingModel.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T09:21:53.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CategoryModel.cs",
+              "DocumentMoniker": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\CategoryModel.cs",
+              "RelativeDocumentMoniker": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\CategoryModel.cs",
+              "ToolTip": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\CategoryModel.cs",
+              "RelativeToolTip": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\CategoryModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T09:21:48.826Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -291,6 +291,7 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <None Include="ViewModel\ClassDiagram2.cd" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

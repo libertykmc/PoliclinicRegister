@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Попытка_1.Model.ScheduleModel">
+    <Position X="3.25" Y="0.75" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AgAkAAAAKAAAgAgAIBQCAAAQgAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\ScheduleModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Попытка_1.Model.DoctorModel">
+    <Position X="7.5" Y="0.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAACAQgAgIkAIACAAAAAgAAAQAAAQAAQQESAAEA=</HashCode>
+      <FileName>Model\DoctorModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

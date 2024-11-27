@@ -91,7 +91,7 @@ namespace Попытка_1.ViewModel
                     setDoctors();
                 }
                 OnPropertyChanged("SelectedSpecialization");
-            }
+            } 
         }
         private ScheduleModel schedule;
         private DoctorModel doctor { get; set; }

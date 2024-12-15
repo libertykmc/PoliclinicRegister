@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30503.244
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Попытка 1", "Попытка 1\Попытка 1.csproj", "{DE202586-CCE3-40B6-AD18-94304F0230CD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Policlinic", "Попытка 1\Policlinic.csproj", "{DE202586-CCE3-40B6-AD18-94304F0230CD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{E89B5D6D-22C1-457E-910F-A8FDDF080CF4}"
 EndProject

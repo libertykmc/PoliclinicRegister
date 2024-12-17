@@ -1,17 +1,23 @@
-﻿using System;
+﻿using ClosedXML.Excel;
+using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using Попытка_1.Model;
 using Попытка_1.View;
 
 namespace Попытка_1.ViewModel
 {
     public class MainViewModel
     {
+        private DBAccess DBAccess;
         public MainViewModel(Window window)
         {
+            DBAccess = new DBAccess();
+
             RegistrationProc = new Command(obj =>
             {
                 ProcedureRegistration window1 = new ProcedureRegistration();
@@ -117,6 +123,40 @@ namespace Попытка_1.ViewModel
                 window1.Show();
                 window.Close();
             });
+
+            ExportPdf = new Command(obj =>
+            {
+
+                var Report = DBAccess.getStatistic();
+                
+                using (var workbook = new XLWorkbook())
+                {
+                    var worksheet = workbook.Worksheets.Add("Лист 1");
+
+                    worksheet.Cell(1, 1).Value = "Диагноз";
+                    worksheet.Cell(1, 2).Value = "Количество";
+
+                    int rowIdx = 2;
+                    foreach (var column in Report)
+                    {
+                        worksheet.Cell(rowIdx, 1).Value = column.Diagnosis;
+                        worksheet.Cell(rowIdx, 2).Value = column.Count;
+                        rowIdx++;
+                    }
+
+                    var dialog = new SaveFileDialog()
+                    {
+                        FileName = "Статистика",
+                        DefaultExt = ".xlsx",
+                        Filter = "Excel Files|*.xlsx"
+                    };
+
+                    if (dialog.ShowDialog() == true)
+                    {
+                        workbook.SaveAs(dialog.FileName);
+                    }
+                }
+            });
         }
         public Command RegistrationProc { get; set; }
         public Command Registration { get; set; }
@@ -128,5 +168,7 @@ namespace Попытка_1.ViewModel
         public Command Nurces { get; set; }
         public Command ProcSchedule { get; set; }
         public Command Schedule { get; set; }
+
+        public Command ExportPdf { get; set; }
     }
 }

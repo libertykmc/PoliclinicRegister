@@ -6,9 +6,10 @@
         xmlns:local="clr-namespace:Попытка_1"
         mc:Ignorable="d"
         Title="Регистратура" Height="485" Width="800">
-    <Grid Background="#FFFFFAEC">
+    <Grid Background="#FFFFFAEC" Margin="0,0,0,-57">
         <Grid.RowDefinitions>
             <RowDefinition Height="1.5*"></RowDefinition>
+            <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
@@ -46,8 +47,8 @@
         <Grid Grid.Row="6"  Background="AliceBlue"/>
         <Grid Grid.Row="7"  Background="AliceBlue"/>
         <Grid Grid.Row="8" Background="AliceBlue" />
-
-        <StackPanel Grid.Row="1" Grid.RowSpan="8">
+        <Grid Grid.Row="9" Background="AliceBlue" />
+        <StackPanel Grid.Row="1" Grid.RowSpan="9">
             <Button Command="{Binding Patients}" Grid.Column="0" Grid.Row="3" Height="Auto" Margin="8,4" Background="#FFFFF0F5" Foreground="Black" Padding="0" BorderBrush="#FFF0E4CC" Grid.ColumnSpan="1" >
                 <StackPanel Orientation="Vertical">
                     <TextBlock Text="Список пациентов" FontSize="20
@@ -115,6 +116,29 @@
                 <StackPanel Orientation="Vertical">
                     <TextBlock Text="Замена врача" FontSize="20
                            " HorizontalAlignment="Center" TextWrapping="Wrap" Height="24" RenderTransformOrigin="0.5,0.5">
+                        <TextBlock.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="-1"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </TextBlock.RenderTransform>
+                    </TextBlock>
+                </StackPanel>
+            </Button>
+            <Button Command="{Binding ExportPdf }" Grid.Column="0" Grid.Row="7" Height="29" Margin="8,4" Background="#FFFFF0F5" Foreground="Black" Padding="0" BorderBrush="#FFF0E4CC" Grid.ColumnSpan="1" RenderTransformOrigin="0.5,0.5" >
+                <Button.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="-1"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Button.RenderTransform>
+                <StackPanel Orientation="Vertical">
+                    <TextBlock Text="Экспорт статистики" FontSize="20
+               " HorizontalAlignment="Center" TextWrapping="Wrap" Height="24" RenderTransformOrigin="0.5,0.5">
                         <TextBlock.RenderTransform>
                             <TransformGroup>
                                 <ScaleTransform ScaleY="-1"/>

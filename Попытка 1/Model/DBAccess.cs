@@ -713,7 +713,16 @@ namespace Попытка_1.Model
             Save(DB);
             return s.ID;
         }
-        public int Save(DBContext DB)
+
+        public List<Statistic> getStatistic()
+        {
+            DBContext DB = setDB();
+            return DB.RecordInPatientFile.GroupBy(record => record.Diagnosis).Select(x => new Statistic() {
+                Diagnosis = x.Key, Count = x.Count()
+            }).ToList();
+        
+        }
+    public int Save(DBContext DB)
         {
             return DB.SaveChanges();
         }

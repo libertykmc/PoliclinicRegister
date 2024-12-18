@@ -1,52 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Policlinic.csproj|c:\\users\\nedokmc\\desktop\\\u0434\u044D\u043C\\\u0443\u0447\u0435\u0431\u0430\\2-42\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u043F\u043E\\\u043A\u0443\u0440\u0441\u0430\u0447\\-1\\\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\view\\registrationmain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Policlinic.csproj|solutionrelative:\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\view\\registrationmain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Policlinic.csproj|C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Policlinic.csproj|solutionrelative:\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Policlinic.csproj|C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\viewmodel\\registrationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Policlinic.csproj|solutionrelative:\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\viewmodel\\registrationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E89B5D6D-22C1-457E-910F-A8FDDF080CF4}|DAL\\DAL.csproj|C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\dal\\entity\\doproc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E89B5D6D-22C1-457E-910F-A8FDDF080CF4}|DAL\\DAL.csproj|solutionrelative:dal\\entity\\doproc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Policlinic.csproj|C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\model\\statistic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Policlinic.csproj|solutionrelative:\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\model\\statistic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E89B5D6D-22C1-457E-910F-A8FDDF080CF4}|DAL\\DAL.csproj|C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\dal\\entity\\makingprocedure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E89B5D6D-22C1-457E-910F-A8FDDF080CF4}|DAL\\DAL.csproj|solutionrelative:dal\\entity\\makingprocedure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E89B5D6D-22C1-457E-910F-A8FDDF080CF4}|DAL\\DAL.csproj|C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\dal\\entity\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E89B5D6D-22C1-457E-910F-A8FDDF080CF4}|DAL\\DAL.csproj|solutionrelative:dal\\entity\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E89B5D6D-22C1-457E-910F-A8FDDF080CF4}|DAL\\DAL.csproj|C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\dal\\entity\\recordinpatientfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E89B5D6D-22C1-457E-910F-A8FDDF080CF4}|DAL\\DAL.csproj|solutionrelative:dal\\entity\\recordinpatientfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E89B5D6D-22C1-457E-910F-A8FDDF080CF4}|DAL\\DAL.csproj|C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\dal\\entity\\doctorsee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E89B5D6D-22C1-457E-910F-A8FDDF080CF4}|DAL\\DAL.csproj|solutionrelative:dal\\entity\\doctorsee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Policlinic.csproj|C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\view\\registrationmain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE202586-CCE3-40B6-AD18-94304F0230CD}|\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Policlinic.csproj|solutionrelative:\u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\view\\registrationmain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E89B5D6D-22C1-457E-910F-A8FDDF080CF4}|DAL\\DAL.csproj|C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\dal\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{E89B5D6D-22C1-457E-910F-A8FDDF080CF4}|DAL\\DAL.csproj|solutionrelative:dal\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\nedokmc\\Desktop\\-1\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -54,143 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MakingProcedure.cs",
-              "DocumentMoniker": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\DAL\\Entity\\MakingProcedure.cs",
-              "RelativeDocumentMoniker": "DAL\\Entity\\MakingProcedure.cs",
-              "ToolTip": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\DAL\\Entity\\MakingProcedure.cs",
-              "RelativeToolTip": "DAL\\Entity\\MakingProcedure.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T09:35:59.579Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DoProc.cs",
-              "DocumentMoniker": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\DAL\\Entity\\DoProc.cs",
-              "RelativeDocumentMoniker": "DAL\\Entity\\DoProc.cs",
-              "ToolTip": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\DAL\\Entity\\DoProc.cs",
-              "RelativeToolTip": "DAL\\Entity\\DoProc.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T09:35:58.49Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DBContext.cs",
-              "DocumentMoniker": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\DAL\\Entity\\DBContext.cs",
-              "RelativeDocumentMoniker": "DAL\\Entity\\DBContext.cs",
-              "ToolTip": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\DAL\\Entity\\DBContext.cs",
-              "RelativeToolTip": "DAL\\Entity\\DBContext.cs",
-              "ViewState": "AQIAAL0AAAAAAAAAAAAowAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T09:35:56.067Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Statistic.cs",
-              "DocumentMoniker": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\Statistic.cs",
-              "RelativeDocumentMoniker": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\Statistic.cs",
-              "ToolTip": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\Statistic.cs",
-              "RelativeToolTip": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\Model\\Statistic.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T09:31:47.891Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\ViewModel\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\ViewModel\\MainViewModel.cs",
-              "ToolTip": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\ViewModel\\MainViewModel.cs",
-              "RelativeToolTip": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\ViewModel\\MainViewModel.cs",
-              "ViewState": "AQIAAKYAAAAAAAAAAAA5wKsAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T09:26:53.479Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RegistrationViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\ViewModel\\RegistrationViewModel.cs",
-              "RelativeDocumentMoniker": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\ViewModel\\RegistrationViewModel.cs",
-              "ToolTip": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\ViewModel\\RegistrationViewModel.cs",
-              "RelativeToolTip": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\ViewModel\\RegistrationViewModel.cs",
-              "ViewState": "AQIAAO8AAAAAAAAAAAAAwPAAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T09:24:34.714Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\DAL\\App.config",
-              "RelativeDocumentMoniker": "DAL\\App.config",
-              "ToolTip": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\DAL\\App.config",
-              "RelativeToolTip": "DAL\\App.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-12-17T09:29:23.797Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RegistrationMain.xaml",
-              "DocumentMoniker": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\View\\RegistrationMain.xaml",
-              "RelativeDocumentMoniker": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\View\\RegistrationMain.xaml",
-              "ToolTip": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\View\\RegistrationMain.xaml",
-              "RelativeToolTip": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\View\\RegistrationMain.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-17T09:24:39.419Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RecordInPatientFile.cs",
-              "DocumentMoniker": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\DAL\\Entity\\RecordInPatientFile.cs",
-              "RelativeDocumentMoniker": "DAL\\Entity\\RecordInPatientFile.cs",
-              "ToolTip": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\DAL\\Entity\\RecordInPatientFile.cs",
-              "RelativeToolTip": "DAL\\Entity\\RecordInPatientFile.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T09:37:52.161Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DoctorSee.cs",
-              "DocumentMoniker": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\DAL\\Entity\\DoctorSee.cs",
-              "RelativeDocumentMoniker": "DAL\\Entity\\DoctorSee.cs",
-              "ToolTip": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\DAL\\Entity\\DoctorSee.cs",
-              "RelativeToolTip": "DAL\\Entity\\DoctorSee.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T09:35:23.042Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RegistrationMain.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\View\\RegistrationMain.xaml.cs",
-              "RelativeDocumentMoniker": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\View\\RegistrationMain.xaml.cs",
-              "ToolTip": "C:\\Users\\nedokmc\\Desktop\\\u0434\u044D\u043C\\\u0423\u0447\u0435\u0431\u0430\\2-42\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\-1\\\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\View\\RegistrationMain.xaml.cs",
-              "RelativeToolTip": "\u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\View\\RegistrationMain.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T09:26:45.051Z"
             }
           ]
         }

@@ -1,4 +1,5 @@
-﻿using OfficeOpenXml;
+﻿using Microsoft.Win32;
+using OfficeOpenXml;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -343,27 +344,41 @@ namespace Попытка_1.ViewModel
 
             Print = new Command(obj =>
             {
+                // Установка контекста лицензии EPPlus
+                OfficeOpenXml.ExcelPackage.LicenseContext = OfficeOpenXml.LicenseContext.NonCommercial;
+
+                // Создаём Excel файл
                 var schedules = dbAccess.GetScheduleProcedures();
                 ExcelPackage excel = new ExcelPackage();
                 var workSheet = excel.Workbook.Worksheets.Add("Расписание процедурных");
                 workSheet.DefaultRowHeight = 70;
                 workSheet.DefaultColWidth = 28;
                 int y = 1;
+
+                // Заполнение данных в Excel
                 foreach (ScheduleStringModel sc in Schedules)
                 {
                     if (sc.Schedules.Count() > 0)
                     {
-                        workSheet.Cells[y, 1].Value = sc.Doctor.FullName + "\n" + "Участок: " + sc.Doctor.PlaceOfSee + "\n" + "Специализация: " + sc.Doctor.Specialization;
+                        workSheet.Cells[y, 1].Value = sc.Doctor.FullName + "\n" +
+                                                      "Участок: " + sc.Doctor.PlaceOfSee + "\n" +
+                                                      "Специализация: " + sc.Doctor.Specialization;
                         for (int x = 2; x <= sc.Schedules.Count() + 1; x++)
                         {
                             var shift = dbAccess.GetShift(sc.Schedules[x - 2].ShiftID);
-                            string text = sc.Schedules[x - 2].Day + "\n" + "Кабинет: " + sc.Schedules[x - 2].Room + "\n" + shift.TimeofBegin.ToString().Remove(5) + " - " + shift.TimeofEnd.ToString().Remove(5);
-                            if (sc.Doctor.ZamEnd != null && sc.Doctor.ZamStart != null && DateTime.Now >= sc.Doctor.ZamStart && DateTime.Now <= sc.Doctor.ZamEnd)
+                            string text = sc.Schedules[x - 2].Day + "\n" +
+                                          "Кабинет: " + sc.Schedules[x - 2].Room + "\n" +
+                                          shift.TimeofBegin.ToString().Remove(5) + " - " + shift.TimeofEnd.ToString().Remove(5);
+
+                            if (sc.Doctor.ZamEnd != null && sc.Doctor.ZamStart != null &&
+                                DateTime.Now >= sc.Doctor.ZamStart && DateTime.Now <= sc.Doctor.ZamEnd)
                             {
-                                text += "\nС " + sc.Doctor.ZamStart.ToString().Substring(0, 10) + "\n" + "До " + sc.Doctor.ZamEnd.ToString().Substring(0, 10);
+                                text += "\nС " + sc.Doctor.ZamStart.ToString().Substring(0, 10) +
+                                        "\nДо " + sc.Doctor.ZamEnd.ToString().Substring(0, 10);
                                 if (sc.Schedules[x - 2].ZamID != null)
                                 {
-                                    text += "\nЗамена на" + "\n" + dbAccess.GetDoctor(sc.Schedules[x - 2].ZamID.Value).FullName;
+                                    text += "\nЗамена на" + "\n" +
+                                            dbAccess.GetDoctor(sc.Schedules[x - 2].ZamID.Value).FullName;
                                 }
                                 else
                                 {
@@ -375,11 +390,26 @@ namespace Попытка_1.ViewModel
                         y++;
                     }
                 }
-                string p_strPath = "расписание_врачей" + DateTime.Now.ToString().Replace(" ", "").Replace(".", "").Replace(":", "") + ".xlsx";
-                FileStream objFileStrm = File.Create(p_strPath);
-                objFileStrm.Close();
-                File.WriteAllBytes(p_strPath, excel.GetAsByteArray());
+
+                // Диалог выбора места сохранения файла
+                SaveFileDialog saveFileDialog = new SaveFileDialog
+                {
+                    Filter = "Excel files (*.xlsx)|*.xlsx|All files (*.*)|*.*",
+                    DefaultExt = "xlsx",
+                    FileName = "расписание_врачей_" + DateTime.Now.ToString("yyyyMMdd_HHmmss"),
+                    Title = "Сохранить как Excel"
+                };
+
+                if (saveFileDialog.ShowDialog() == true)
+                {
+                    string selectedPath = saveFileDialog.FileName;
+
+                    // Сохранение Excel файла
+                    File.WriteAllBytes(selectedPath, excel.GetAsByteArray());
+                    MessageBox.Show("Файл успешно сохранён: " + selectedPath, "Экспорт завершён", MessageBoxButton.OK, MessageBoxImage.Information);
+                }
             });
+
         }
         public Command Exit { get; set; }
         public Command Create { get; set; }

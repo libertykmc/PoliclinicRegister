@@ -1,12 +1,19 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using PdfSharp.Drawing;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using Попытка_1.Model;
+using PdfSharp.Pdf;
+
+
+using static Попытка_1.ViewModel.ProcedureRegistrationViewModel;
 
 namespace Попытка_1.ViewModel
 {
@@ -108,6 +115,8 @@ namespace Попытка_1.ViewModel
         }
         public Command Submit { get; set; }
         public Command Main { get; set; }
+
+        public Command Print { get; set; }
         private void setProcedures()
         {
             var doproc = dbAccess.GetDoProcForPatient(selectedPatient.ID);
@@ -205,44 +214,86 @@ namespace Попытка_1.ViewModel
                 main.Show();
                 window.Close();
             });
+            Print = new Command(obj =>
+            {
+                if (SelectedPatient != null && SelectedProcedure != null && SelectedRoom != null)
+                {
+                    print(SelectedPatient, SelectedProcedure, SelectedRoom);
+                    MessageBox.Show("Талон успешно сохранён.", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
+                }
+                else
+                {
+                    MessageBox.Show("Пожалуйста, выберите пациента, процедуру и дату.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                }
+            });
         }
 
-        //private void print(DoctorSeeModel doctorSee, ScheduleModel schedule)
-        //{
-        //    PdfDocument document = new PdfDocument();
-        //    PdfPage page = document.AddPage();
-        //    XGraphics xg = XGraphics.FromPdfPage(page);
-        //    int str = 20;
-        //    var img = Properties.Resources.hospital;
-        //    MemoryStream ms = new MemoryStream();
-        //    img.Save(ms, img.RawFormat);
-        //    XImage image = XImage.FromStream(ms);
-        //    ms.Close();
-        //    xg.DrawImage(image, 20, 64, 64, 64);
-        //    xg.DrawString("Healthy".ToString(), new XFont("Times New Roman", 18), XBrushes.Black, new XRect(94, 64, page.Width - 94, 64), XStringFormats.CenterLeft);
-        //    str += 100;
-        //    xg.DrawString("Талон №" + doctorSee.ID.ToString(), new XFont("Times New Roman", 24), XBrushes.Black, new XRect(20, str, page.Width - 20, 24), XStringFormats.TopCenter);
-        //    str += 30;
-        //    xg.DrawString("Пациент: " + SelectedPatient.FullName, new XFont("Times New Roman", 16), XBrushes.Black, new XRect(20, str, page.Width - 20, 18), XStringFormats.TopLeft);
-        //    str += 30;
-        //    string name;
-        //    if (doctorSee.ZamID == null)
-        //    {
-        //        name = dbAccess.GetDoctor(doctorSee.DoctorID).FullName;
-        //    }
-        //    else
-        //    {
-        //        name = dbAccess.GetDoctor(doctorSee.ZamID.Value).FullName;
-        //    }
-        //    xg.DrawString("Врач: " + name, new XFont("Times New Roman", 16), XBrushes.Black, new XRect(20, str, page.Width - 20, 18), XStringFormats.TopLeft);
-        //    str += 30;
-        //    xg.DrawString("Кабинет: " + schedule.Room, new XFont("Times New Roman", 16), XBrushes.Black, new XRect(20, str, page.Width - 20, 18), XStringFormats.TopLeft);
-        //    str += 30;
-        //    xg.DrawString("Время: " + doctorSee.DateTime, new XFont("Times New Roman", 16), XBrushes.Black, new XRect(20, str, page.Width - 20, 18), XStringFormats.TopLeft);
-        //    document.Save(doctorSee.ID.ToString() + ".pdf");
-        //}
+   //начало чата
+public void print(PatientModel patient, TypeofProcModel procedure, RoomsInfo room)
+    {
+        if (patient == null || procedure == null || room == null)
+        {
+            MessageBox.Show("Не выбраны все необходимые данные для формирования талона.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+            return;
+        }
 
-        public event PropertyChangedEventHandler PropertyChanged;
+        // Создаем новый PDF-документ
+        PdfDocument document = new PdfDocument();
+        document.Info.Title = "Талон на процедуру";
+
+        // Добавляем страницу
+        PdfPage page = document.AddPage();
+        XGraphics gfx = XGraphics.FromPdfPage(page);
+
+        // Устанавливаем шрифты
+        XFont titleFont = new XFont("Arial", 18, XFontStyle.Bold);
+        XFont textFont = new XFont("Arial", 14, XFontStyle.Regular);
+        XFont footerFont = new XFont("Arial", 12, XFontStyle.Italic);
+
+        // Заголовок
+        gfx.DrawString("Талон на медицинскую процедуру", titleFont, XBrushes.Black, new XRect(0, 40, page.Width, 30), XStringFormats.TopCenter);
+
+        // Логотип клиники
+        var img = Properties.Resources.hospital; // Используйте изображение логотипа клиники
+        MemoryStream ms = new MemoryStream();
+        img.Save(ms, img.RawFormat);
+        XImage logo = XImage.FromStream(ms);
+        gfx.DrawImage(logo, 40, 80, 60, 60);
+
+        // Информация о пациенте
+        gfx.DrawString($"Пациент: {patient.FullName}", textFont, XBrushes.Black, new XRect(120, 80, page.Width - 140, 20), XStringFormats.TopLeft);
+        gfx.DrawString($"Дата рождения: {DateTime.Parse(patient.DateOfBirth).ToShortDateString()}", textFont, XBrushes.Black, new XRect(120, 110, page.Width - 140, 20), XStringFormats.TopLeft);
+
+            // Информация о процедуре
+        gfx.DrawString($"Процедура: {procedure.Type}", textFont, XBrushes.Black, new XRect(40, 160, page.Width - 80, 20), XStringFormats.TopLeft);
+        gfx.DrawString($"Дата и время: {room.Date.ToShortDateString()} {room.Date.ToShortTimeString()}", textFont, XBrushes.Black, new XRect(40, 190, page.Width - 80, 20), XStringFormats.TopLeft);
+        gfx.DrawString($"Кабинет: {room.Room}", textFont, XBrushes.Black, new XRect(40, 220, page.Width - 80, 20), XStringFormats.TopLeft);
+
+        // Нижний колонтитул
+        gfx.DrawString("Спасибо за обращение в нашу клинику!", footerFont, XBrushes.Gray, new XRect(0, page.Height - 40, page.Width, 20), XStringFormats.TopCenter);
+
+        // Сохранение через диалог
+        SaveFileDialog saveFileDialog = new SaveFileDialog
+        {
+            Filter = "PDF files (*.pdf)|*.pdf|All files (*.*)|*.*",
+            DefaultExt = "pdf",
+            FileName = $"Талон_{patient.FullName.Replace(" ", "_")}_{room.Date:yyyyMMdd}",
+            Title = "Сохранить талон на процедуру"
+        };
+
+        if (saveFileDialog.ShowDialog() == true)
+        {
+            document.Save(saveFileDialog.FileName);
+            MessageBox.Show($"Талон успешно сохранён по пути: {saveFileDialog.FileName}", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
+        }
+        else
+        {
+            MessageBox.Show("Сохранение талона отменено.", "Отмена", MessageBoxButton.OK, MessageBoxImage.Warning);
+        }
+    }
+//конец чата
+
+    public event PropertyChangedEventHandler PropertyChanged;
         public void OnPropertyChanged(string prop = "")
         {
             if (PropertyChanged != null)

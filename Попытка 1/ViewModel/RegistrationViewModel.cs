@@ -1,4 +1,5 @@
-﻿using PdfSharp.Drawing;
+﻿using Microsoft.Win32;
+using PdfSharp.Drawing;
 using PdfSharp.Pdf;
 using System;
 using System.Collections.Generic;
@@ -321,38 +322,61 @@ namespace Попытка_1.ViewModel
 
         private void print(DoctorSeeModel doctorSee, ScheduleModel schedule)
         {
-            PdfDocument document = new PdfDocument();
-            PdfPage page = document.AddPage();
-            XGraphics xg = XGraphics.FromPdfPage(page);
-            int str = 20;
-            var img = Properties.Resources.hospital;
-            MemoryStream ms = new MemoryStream();
-            img.Save(ms, img.RawFormat);
-            XImage image = XImage.FromStream(ms);
-            ms.Close();
-            xg.DrawImage(image, 20, 64, 64, 64);
-            xg.DrawString("Healthy".ToString(), new XFont("Times New Roman", 18), XBrushes.Black, new XRect(94, 64, page.Width - 94, 64), XStringFormats.CenterLeft);
-            str += 100;
-            xg.DrawString("Талон №" + doctorSee.ID.ToString(), new XFont("Times New Roman", 24), XBrushes.Black, new XRect(20, str, page.Width - 20, 24), XStringFormats.TopCenter);
-            str += 30;
-            xg.DrawString("Пациент: " + SelectedPatient.FullName, new XFont("Times New Roman", 16), XBrushes.Black, new XRect(20, str, page.Width - 20, 18), XStringFormats.TopLeft);
-            str += 30;
-            string name;
-            if (doctorSee.ZamID == null)
+            // Создаем диалог сохранения
+            SaveFileDialog saveFileDialog = new SaveFileDialog
             {
-                name = dbAccess.GetDoctor(doctorSee.DoctorID).FullName;
-            }
-            else
+                Filter = "PDF files (*.pdf)|*.pdf|All files (*.*)|*.*",
+                DefaultExt = "pdf",
+                FileName = "Талон_" + doctorSee.ID,
+                Title = "Сохранить как PDF"
+            };
+
+            // Показываем диалог
+            if (saveFileDialog.ShowDialog() == true)
             {
-                name = dbAccess.GetDoctor(doctorSee.ZamID.Value).FullName;
+                string selectedPath = saveFileDialog.FileName;
+
+                // Создаем PDF-документ
+                PdfDocument document = new PdfDocument();
+                PdfPage page = document.AddPage();
+                XGraphics xg = XGraphics.FromPdfPage(page);
+                int str = 20;
+
+                // Добавляем изображение
+                var img = Properties.Resources.hospital;
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    img.Save(ms, img.RawFormat);
+                    XImage image = XImage.FromStream(ms);
+                    xg.DrawImage(image, 20, 64, 64, 64);
+                }
+
+                // Добавляем текстовые данные
+                xg.DrawString("Healthy", new XFont("Times New Roman", 18), XBrushes.Black, new XRect(94, 64, page.Width - 94, 64), XStringFormats.CenterLeft);
+                str += 100;
+                xg.DrawString("Талон №" + doctorSee.ID.ToString(), new XFont("Times New Roman", 24), XBrushes.Black, new XRect(20, str, page.Width - 20, 24), XStringFormats.TopCenter);
+                str += 30;
+                xg.DrawString("Пациент: " + SelectedPatient.FullName, new XFont("Times New Roman", 16), XBrushes.Black, new XRect(20, str, page.Width - 20, 18), XStringFormats.TopLeft);
+                str += 30;
+
+                // Определяем имя врача
+                string name = doctorSee.ZamID == null
+                    ? dbAccess.GetDoctor(doctorSee.DoctorID).FullName
+                    : dbAccess.GetDoctor(doctorSee.ZamID.Value).FullName;
+                xg.DrawString("Врач: " + name, new XFont("Times New Roman", 16), XBrushes.Black, new XRect(20, str, page.Width - 20, 18), XStringFormats.TopLeft);
+                str += 30;
+
+                // Добавляем кабинет и время
+                xg.DrawString("Кабинет: " + schedule.Room, new XFont("Times New Roman", 16), XBrushes.Black, new XRect(20, str, page.Width - 20, 18), XStringFormats.TopLeft);
+                str += 30;
+                xg.DrawString("Время: " + doctorSee.DateTime, new XFont("Times New Roman", 16), XBrushes.Black, new XRect(20, str, page.Width - 20, 18), XStringFormats.TopLeft);
+
+                // Сохраняем документ
+                document.Save(selectedPath);
+                MessageBox.Show("Файл успешно сохранён: " + selectedPath, "Экспорт завершён", MessageBoxButton.OK, MessageBoxImage.Information);
             }
-            xg.DrawString("Врач: " + name, new XFont("Times New Roman", 16), XBrushes.Black, new XRect(20, str, page.Width - 20, 18), XStringFormats.TopLeft);
-            str += 30;
-            xg.DrawString("Кабинет: " + schedule.Room, new XFont("Times New Roman", 16), XBrushes.Black, new XRect(20, str, page.Width - 20, 18), XStringFormats.TopLeft);
-            str += 30;
-            xg.DrawString("Время: " + doctorSee.DateTime, new XFont("Times New Roman", 16), XBrushes.Black, new XRect(20, str, page.Width - 20, 18), XStringFormats.TopLeft);
-            document.Save(doctorSee.ID.ToString() + ".pdf");
         }
+
 
         private void setSchedules(DateTime now)
         {

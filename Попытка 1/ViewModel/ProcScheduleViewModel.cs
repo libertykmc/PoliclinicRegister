@@ -9,6 +9,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using Попытка_1.Model;
+using iText.Kernel.Pdf; // Для создания PDF-файлов
+using iText.Layout; // Для работы с содержимым PDF
+using iText.Layout.Element; // Для добавления элементов в PDF
+using Microsoft.Win32; // Для SaveFileDialog
+
+
+
+
 
 namespace Попытка_1.ViewModel
 {
@@ -188,31 +196,53 @@ namespace Попытка_1.ViewModel
 
             Print = new Command(obj =>
             {
+                // Установка контекста лицензии EPPlus
+                OfficeOpenXml.ExcelPackage.LicenseContext = OfficeOpenXml.LicenseContext.NonCommercial;
+
+                // Получаем расписание процедур
                 var schedules = dbAccess.GetScheduleProcedures();
                 ExcelPackage excel = new ExcelPackage();
                 var workSheet = excel.Workbook.Worksheets.Add("Расписание процедурных");
                 workSheet.DefaultRowHeight = 32;
                 workSheet.DefaultColWidth = 14;
                 int y = 1;
+
+                // Заполнение данных в Excel
                 foreach (TypeofProcModel type in Procedures)
                 {
-                    
                     var buffer = schedules.Where(i => i.ProcedureID == type.ID).OrderBy(i => i.DayID).ToList();
-                    if (buffer.Count() > 0)
+                    if (buffer.Count > 0)
                     {
                         workSheet.Cells[y, 1].Value = type.Type;
-                        for (int x = 2; x <= buffer.Count() + 1; x++)
+                        for (int x = 2; x <= buffer.Count + 1; x++)
                         {
                             workSheet.Cells[y, x].Value = dbAccess.GetDay(buffer[x - 2].DayID) + "\r\n" + buffer[x - 2].Room;
                         }
                         y++;
                     }
                 }
-                string p_strPath = "расписание_процедур" + DateTime.Now.ToString().Replace(" ", "").Replace(".", "").Replace(":", "") + ".xlsx";
-                FileStream objFileStrm = File.Create(p_strPath);
-                objFileStrm.Close();
-                File.WriteAllBytes(p_strPath, excel.GetAsByteArray());
+
+                // Вывод диалога сохранения файла
+                SaveFileDialog saveFileDialog = new SaveFileDialog
+                {
+                    Filter = "Excel files (*.xlsx)|*.xlsx|All files (*.*)|*.*",
+                    DefaultExt = "xlsx",
+                    FileName = "расписание_процедур_" + DateTime.Now.ToString("yyyyMMdd_HHmmss"),
+                    Title = "Сохранить как Excel"
+                };
+
+                if (saveFileDialog.ShowDialog() == true)
+                {
+                    string selectedPath = saveFileDialog.FileName;
+
+                    // Сохранение Excel-файла в выбранное место
+                    File.WriteAllBytes(selectedPath, excel.GetAsByteArray());
+
+                    MessageBox.Show("Файл успешно сохранён: " + selectedPath, "Экспорт завершён", MessageBoxButton.OK, MessageBoxImage.Information);
+                }
             });
+
+
         }
         public Command Exit { get; set; }
         public Command Create { get; set; }

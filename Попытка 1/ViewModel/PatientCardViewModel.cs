@@ -1,4 +1,5 @@
-﻿using MigraDoc.DocumentObjectModel;
+﻿using Microsoft.Win32;
+using MigraDoc.DocumentObjectModel;
 using MigraDoc.Rendering;
 using PdfSharp.Pdf;
 using System;
@@ -205,8 +206,11 @@ namespace Попытка_1.ViewModel
             }, func => { return CurrentPatient != null; });
             Print = new Command(obj =>
             {
+                // Создание документа
                 Document document = new Document();
                 Section section = document.AddSection();
+
+                // Добавление заголовка
                 Paragraph main = new Paragraph();
                 section.Add(main);
                 main.AddText("Медицинская карта\n");
@@ -221,6 +225,8 @@ namespace Попытка_1.ViewModel
                 }
                 main.Format.Font.Size = 18;
                 main.Format.Alignment = ParagraphAlignment.Center;
+
+                // Добавление текста
                 for (int i = 0; i < texts.Count(); i++)
                 {
                     Paragraph paragraph = new Paragraph();
@@ -228,11 +234,32 @@ namespace Попытка_1.ViewModel
                     paragraph.AddText(texts[i]);
                     section.Add(paragraph);
                 }
-                PdfDocumentRenderer pdfRenderer = new PdfDocumentRenderer(true);
-                pdfRenderer.Document = document;
-                pdfRenderer.RenderDocument();
-                pdfRenderer.PdfDocument.Save("Карта" + patientID.ToString() + ".pdf");
+
+                // Настройка сохранения файла через SaveFileDialog
+                SaveFileDialog saveFileDialog = new SaveFileDialog
+                {
+                    Filter = "PDF files (*.pdf)|*.pdf|All files (*.*)|*.*",
+                    DefaultExt = "pdf",
+                    FileName = "Карта_" + patientID.ToString(),
+                    Title = "Сохранить медицинскую карту"
+                };
+
+                if (saveFileDialog.ShowDialog() == true)
+                {
+                    string selectedPath = saveFileDialog.FileName;
+
+                    // Рендеринг PDF-документа
+                    PdfDocumentRenderer pdfRenderer = new PdfDocumentRenderer(true);
+                    pdfRenderer.Document = document;
+                    pdfRenderer.RenderDocument();
+
+                    // Сохранение документа в выбранный путь
+                    pdfRenderer.PdfDocument.Save(selectedPath);
+
+                    MessageBox.Show("Файл успешно сохранён: " + selectedPath, "Экспорт завершён", MessageBoxButton.OK, MessageBoxImage.Information);
+                }
             }, func => { return CardText != ""; });
+
         }
 
         public Command Back { get; set; }

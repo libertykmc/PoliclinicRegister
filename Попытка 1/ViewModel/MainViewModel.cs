@@ -1,4 +1,5 @@
 ﻿using ClosedXML.Excel;
+using DocumentFormat.OpenXml.Drawing.Diagrams;
 using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
@@ -151,11 +152,28 @@ namespace Попытка_1.ViewModel
                         Filter = "Excel Files|*.xlsx"
                     };
 
+                    //  if (dialog.ShowDialog() == true)
+                    //{
+                    //  workbook.SaveAs(dialog.FileName);
+                    //}
                     if (dialog.ShowDialog() == true)
                     {
-                        workbook.SaveAs(dialog.FileName);
+                        try
+                        {
+                            workbook.SaveAs(dialog.FileName);
+                            MessageBox.Show("Статистика успешно экспортирована", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
+                        }
+                        catch (Exception ex)
+                        {
+                            MessageBox.Show($"Произошла ошибка при сохранении файла: {ex.Message}", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("Экспорт статистики был отменен.", "Отмена", MessageBoxButton.OK, MessageBoxImage.Error);
                     }
                 }
+
             });
         }
         public Command RegistrationProc { get; set; }

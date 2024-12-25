@@ -262,7 +262,8 @@ namespace Попытка_1.ViewModel
                 doctorSee.DateTime = DateTime.Parse(SelectedDate.Date.ToString().Substring(0, 10) + ' ' + Times[SelectedTime].ToString());
                 doctorSee.PatientID = selectedPatient.ID;
                 //ScheduleModel schedule = schedules.First(i => i.DoctorID == doctor.ID);
-                if (schedule.ZamID != null && schedule.ZamID.Value != -1 && dbAccess.GetDoctor(schedule.DoctorID).ZamEnd.Value.Date >= selectedDate.Date)
+                var a = dbAccess.GetDoctor(schedule.DoctorID);
+                if (schedule.ZamID != null && schedule.ZamID.Value != -1 && dbAccess.GetDoctor(schedule.DoctorID).ZamEnd?.Date >= selectedDate.Date)
                 {
                     doctorSee.ZamID = schedule.ZamID.Value;
                 }
@@ -342,18 +343,8 @@ namespace Попытка_1.ViewModel
                 XGraphics xg = XGraphics.FromPdfPage(page);
                 int str = 20;
 
-                // Добавляем изображение
-                var img = Properties.Resources.hospital;
-                using (MemoryStream ms = new MemoryStream())
-                {
-                    img.Save(ms, img.RawFormat);
-                    XImage image = XImage.FromStream(ms);
-                    xg.DrawImage(image, 20, 64, 64, 64);
-                }
-
+              
                 // Добавляем текстовые данные
-                xg.DrawString("Healthy", new XFont("Times New Roman", 18), XBrushes.Black, new XRect(94, 64, page.Width - 94, 64), XStringFormats.CenterLeft);
-                str += 100;
                 xg.DrawString("Талон №" + doctorSee.ID.ToString(), new XFont("Times New Roman", 24), XBrushes.Black, new XRect(20, str, page.Width - 20, 24), XStringFormats.TopCenter);
                 str += 30;
                 xg.DrawString("Пациент: " + SelectedPatient.FullName, new XFont("Times New Roman", 16), XBrushes.Black, new XRect(20, str, page.Width - 20, 18), XStringFormats.TopLeft);

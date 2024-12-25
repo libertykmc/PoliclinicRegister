@@ -238,7 +238,7 @@ namespace Попытка_1.ViewModel
                     // Сохранение Excel-файла в выбранное место
                     File.WriteAllBytes(selectedPath, excel.GetAsByteArray());
 
-                    MessageBox.Show("Файл успешно сохранён: " + selectedPath, "Экспорт завершён", MessageBoxButton.OK, MessageBoxImage.Information);
+                    MessageBox.Show("Файл успешно сохранён");
                 }
             });
 

@@ -256,7 +256,7 @@ namespace Попытка_1.ViewModel
                     // Сохранение документа в выбранный путь
                     pdfRenderer.PdfDocument.Save(selectedPath);
 
-                    MessageBox.Show("Файл успешно сохранён: " + selectedPath, "Экспорт завершён", MessageBoxButton.OK, MessageBoxImage.Information);
+                    MessageBox.Show("Файл успешно сохранён");
                 }
             }, func => { return CardText != ""; });
 

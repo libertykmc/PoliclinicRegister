@@ -219,7 +219,7 @@ namespace Попытка_1.ViewModel
                 if (SelectedPatient != null && SelectedProcedure != null && SelectedRoom != null)
                 {
                     print(SelectedPatient, SelectedProcedure, SelectedRoom);
-                    MessageBox.Show("Талон успешно сохранён.", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
+         
                 }
                 else
                 {
@@ -253,12 +253,7 @@ public void print(PatientModel patient, TypeofProcModel procedure, RoomsInfo roo
         // Заголовок
         gfx.DrawString("Талон на медицинскую процедуру", titleFont, XBrushes.Black, new XRect(0, 40, page.Width, 30), XStringFormats.TopCenter);
 
-        // Логотип клиники
-        var img = Properties.Resources.hospital; // Используйте изображение логотипа клиники
-        MemoryStream ms = new MemoryStream();
-        img.Save(ms, img.RawFormat);
-        XImage logo = XImage.FromStream(ms);
-        gfx.DrawImage(logo, 40, 80, 60, 60);
+        
 
         // Информация о пациенте
         gfx.DrawString($"Пациент: {patient.FullName}", textFont, XBrushes.Black, new XRect(120, 80, page.Width - 140, 20), XStringFormats.TopLeft);
@@ -266,7 +261,7 @@ public void print(PatientModel patient, TypeofProcModel procedure, RoomsInfo roo
 
             // Информация о процедуре
         gfx.DrawString($"Процедура: {procedure.Type}", textFont, XBrushes.Black, new XRect(40, 160, page.Width - 80, 20), XStringFormats.TopLeft);
-        gfx.DrawString($"Дата и время: {room.Date.ToShortDateString()} {room.Date.ToShortTimeString()}", textFont, XBrushes.Black, new XRect(40, 190, page.Width - 80, 20), XStringFormats.TopLeft);
+        gfx.DrawString($"Дата: {room.Date.ToShortDateString()}", textFont, XBrushes.Black, new XRect(40, 190, page.Width - 80, 20), XStringFormats.TopLeft);
         gfx.DrawString($"Кабинет: {room.Room}", textFont, XBrushes.Black, new XRect(40, 220, page.Width - 80, 20), XStringFormats.TopLeft);
 
         // Нижний колонтитул
@@ -284,7 +279,7 @@ public void print(PatientModel patient, TypeofProcModel procedure, RoomsInfo roo
         if (saveFileDialog.ShowDialog() == true)
         {
             document.Save(saveFileDialog.FileName);
-            MessageBox.Show($"Талон успешно сохранён по пути: {saveFileDialog.FileName}", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
+            MessageBox.Show($"Талон успешно сохранён");
         }
         else
         {

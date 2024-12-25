@@ -104,29 +104,6 @@
                 </StackPanel>
             </Button>
 
-            <Button Command="{Binding Test}" Grid.Column="0" Grid.Row="7" Height="29" Margin="8,4" Background="#FFFFF0F5" Foreground="Black" Padding="0" BorderBrush="#FFF0E4CC" Grid.ColumnSpan="1" RenderTransformOrigin="0.5,0.5" >
-                <Button.RenderTransform>
-                    <TransformGroup>
-                        <ScaleTransform ScaleY="-1"/>
-                        <SkewTransform/>
-                        <RotateTransform/>
-                        <TranslateTransform/>
-                    </TransformGroup>
-                </Button.RenderTransform>
-                <StackPanel Orientation="Vertical">
-                    <TextBlock Text="Замена врача" FontSize="20
-                           " HorizontalAlignment="Center" TextWrapping="Wrap" Height="24" RenderTransformOrigin="0.5,0.5">
-                        <TextBlock.RenderTransform>
-                            <TransformGroup>
-                                <ScaleTransform ScaleY="-1"/>
-                                <SkewTransform/>
-                                <RotateTransform/>
-                                <TranslateTransform/>
-                            </TransformGroup>
-                        </TextBlock.RenderTransform>
-                    </TextBlock>
-                </StackPanel>
-            </Button>
             <Button Command="{Binding ExportPdf }" Grid.Column="0" Grid.Row="7" Height="29" Margin="8,4" Background="#FFFFF0F5" Foreground="Black" Padding="0" BorderBrush="#FFF0E4CC" Grid.ColumnSpan="1" RenderTransformOrigin="0.5,0.5" >
                 <Button.RenderTransform>
                     <TransformGroup>
